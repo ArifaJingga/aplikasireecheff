@@ -1,0 +1,36 @@
+/* src/styles/RecipeList.module.css */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 1em;
+  }
+  
+  .recipeList {
+    padding: 0;
+  }
+  
+  .recipeItem {
+    background: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .deleteButton {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background: darkred;
+  }
+  
